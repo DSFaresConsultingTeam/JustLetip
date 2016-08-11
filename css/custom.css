@@ -1,6 +1,9 @@
 #mainNav {
   background: #003279;
 }
+#mainNav.navbar-custom .navbar-nav li a:hover {
+  color: #BD1021;
+}
 
 header {
   background: #BD1021;
@@ -12,11 +15,17 @@ header .star-light::after {
 #portfolio {
   background: #FFFFFF;
 }
+#portfolio h3 {
+  text-align: center;
+}
 #portfolio .star-light::after {
   background-color: #FFFFFF;
 }
 #portfolio .portfolio-item img {
   width: 100%;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+  background-color: rgba(189, 16, 33, 0.8);
 }
 
 #about {
@@ -39,9 +48,19 @@ header .star-light::after {
 #contact .star-light::after {
   background-color: #FFFFFF;
 }
+#contact form label {
+  color: #BD1021;
+}
+#contact.btn-success.active, #contact .btn-success:active, #contact .btn-success:focus, #contact .btn-success:hover, #contact .open .dropdown-toggle.btn-success {
+  background-color: #BD1021;
+  border-color: #BD1021;
+}
 
 footer .footer-above {
   background-color: #003279;
+}
+footer .footer-above .btn-outline.active, footer .footer-above .btn-outline:active, footer .footer-above .btn-outline:focus, footer .footer-above .btn-outline:hover {
+  color: #BD1021;
 }
 footer .footer-below {
   background-color: #002760;
@@ -57,5 +76,5 @@ footer .footer-below {
 }
 
 a, a.active, a:active, a:focus, a:hover {
-  color: #eb152a;
+  color: #BD1021;
 }
