@@ -5,35 +5,35 @@
 header {
   background: #BD1021;
 }
-header.star-light::after {
+header .star-light::after {
   background-color: #BD1021;
 }
 
 #portfolio {
   background: #FFFFFF;
 }
-#portfolio.star-light::after {
+#portfolio .star-light::after {
   background-color: #FFFFFF;
 }
 
 #about {
   background: #003279;
 }
-#about.star-light::after {
+#about .star-light::after {
   background-color: #003279;
 }
 
 #free-lunch {
   background: #BD1021;
 }
-#free-lunch.star-light::after {
+#free-lunch .star-light::after {
   background-color: #BD1021;
 }
 
 #contact {
   background: #FFFFFF;
 }
-#contact.star-light::after {
+#contact .star-light::after {
   background-color: #FFFFFF;
 }
 

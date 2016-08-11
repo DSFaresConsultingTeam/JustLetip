@@ -9,7 +9,7 @@ $bottom-footer: #750A15;
 }
 header {
 	background: $brand-secondary;
-	&.star-light {
+	.star-light {
 		&::after {
 			background-color: $brand-secondary;
 		}
@@ -18,7 +18,7 @@ header {
 
 #portfolio {
 	background: $brand-tertiary;
-	&.star-light {
+	.star-light {
 		&::after {
 			background-color: $brand-tertiary;
 		}
@@ -26,7 +26,7 @@ header {
 }
 #about {
 	background: $brand-primary;
-	&.star-light {
+	.star-light {
 		&::after {
 			background-color: $brand-primary;
 		}
@@ -34,7 +34,7 @@ header {
 }
 #free-lunch {
 	background: $brand-secondary;
-	&.star-light {
+	.star-light {
 		&::after {
 			background-color: $brand-secondary;
 		}
@@ -43,7 +43,7 @@ header {
 
 #contact {
 	background: $brand-tertiary;
-	&.star-light {
+	.star-light {
 		&::after {
 			background-color: $brand-tertiary;
 		}
