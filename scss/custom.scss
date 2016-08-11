@@ -4,27 +4,30 @@ $brand-secondary: #BD1021;
 $brand-tertiary: #FFFFFF;
 $bottom-footer: #750A15;
 
-
-#free-lunch {
-	background: $brand-secondary;
-}
-#about {
-	background: $brand-primary;
-}
 #mainNav {
 	background: $brand-primary;
 }
 header {
 	background: $brand-secondary;
 }
+
 #portfolio {
 	background: $brand-tertiary;
 }
+#about {
+	background: $brand-primary;
+}
+#free-lunch {
+	background: $brand-secondary;
+}
+
+
 #contact {
 	background: $brand-tertiary;
 }
+
 .star-light {
-	&:after {
+	&::after {
 		background-color: inherit;
 	}
 }
@@ -32,15 +35,17 @@ header {
 	background-color: $brand-primary;
 }
 .footer-below {
-	background-color: 
+	background-color: darken($brand-primary, 20%);
 }
+
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-	background: $brand-primary;
+	background: $brand-secondary;
 }
 .btn-success {
 	background: $brand-primary;
+	border-color: $brand-primary;
 }
 
 a, a.active, a:active, a:focus, a:hover {
-	color: $brand-primary;
+	color: $brand-secondary;
 }
