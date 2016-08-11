@@ -1,3 +1,48 @@
+/* Defining Variables */
 #free-lunch {
-	background: #e27c3e;
+  background: #BD1021;
+}
+
+#about {
+  background: #003279;
+}
+
+#mainNav {
+  background: #003279;
+}
+
+header {
+  background: #BD1021;
+}
+
+#portfolio {
+  background: #FFFFFF;
+}
+
+#contact {
+  background: #FFFFFF;
+}
+
+.star-light:after {
+  background-color: inherit;
+}
+
+.footer-above {
+  background-color: #003279;
+}
+
+.footer-below {
+  background-color: #750A15;
+}
+
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+  background: #003279;
+}
+
+.btn-success {
+  background: #003279;
+}
+
+a, a.active, a:active, a:focus, a:hover {
+  color: #003279;
 }

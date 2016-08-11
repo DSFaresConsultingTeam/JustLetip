@@ -1,0 +1,46 @@
+// Defining Variables //
+$brand-primary: #003279;
+$brand-secondary: #BD1021;
+$brand-tertiary: #FFFFFF;
+$bottom-footer: #750A15;
+
+
+#free-lunch {
+	background: $brand-secondary;
+}
+#about {
+	background: $brand-primary;
+}
+#mainNav {
+	background: $brand-primary;
+}
+header {
+	background: $brand-secondary;
+}
+#portfolio {
+	background: $brand-tertiary;
+}
+#contact {
+	background: $brand-tertiary;
+}
+.star-light {
+	&:after {
+		background-color: inherit;
+	}
+}
+.footer-above {
+	background-color: $brand-primary;
+}
+.footer-below {
+	background-color: 
+}
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+	background: $brand-primary;
+}
+.btn-success {
+	background: $brand-primary;
+}
+
+a, a.active, a:active, a:focus, a:hover {
+	color: $brand-primary;
+}
