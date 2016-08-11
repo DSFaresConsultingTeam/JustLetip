@@ -15,6 +15,9 @@ header .star-light::after {
 #portfolio .star-light::after {
   background-color: #FFFFFF;
 }
+#portfolio .portfolio-item img {
+  width: 100%;
+}
 
 #about {
   background: #003279;

@@ -18,9 +18,16 @@ header {
 
 #portfolio {
 	background: $brand-tertiary;
+
 	.star-light {
 		&::after {
 			background-color: $brand-tertiary;
+		}
+	}
+
+	.portfolio-item {
+		img {
+			width:100%;
 		}
 	}
 }
@@ -64,6 +71,8 @@ footer{
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
 	background: $brand-secondary;
 }
+
+
 .btn-success {
 	background: $brand-primary;
 	border-color: $brand-primary;
