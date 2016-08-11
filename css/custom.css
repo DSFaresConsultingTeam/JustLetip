@@ -5,32 +5,42 @@
 header {
   background: #BD1021;
 }
+header.star-light::after {
+  background-color: #BD1021;
+}
 
 #portfolio {
   background: #FFFFFF;
+}
+#portfolio.star-light::after {
+  background-color: #FFFFFF;
 }
 
 #about {
   background: #003279;
 }
+#about.star-light::after {
+  background-color: #003279;
+}
 
 #free-lunch {
   background: #BD1021;
+}
+#free-lunch.star-light::after {
+  background-color: #BD1021;
 }
 
 #contact {
   background: #FFFFFF;
 }
-
-.star-light::after {
-  background-color: inherit;
+#contact.star-light::after {
+  background-color: #FFFFFF;
 }
 
-.footer-above {
+footer .footer-above {
   background-color: #003279;
 }
-
-.footer-below {
+footer .footer-below {
   background-color: #000813;
 }
 
@@ -44,5 +54,5 @@ header {
 }
 
 a, a.active, a:active, a:focus, a:hover {
-  color: #BD1021;
+  color: #5f0811;
 }

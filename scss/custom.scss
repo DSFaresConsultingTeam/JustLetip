@@ -9,33 +9,56 @@ $bottom-footer: #750A15;
 }
 header {
 	background: $brand-secondary;
+	&.star-light {
+		&::after {
+			background-color: $brand-secondary;
+		}
+	}
 }
 
 #portfolio {
 	background: $brand-tertiary;
+	&.star-light {
+		&::after {
+			background-color: $brand-tertiary;
+		}
+	}
 }
 #about {
 	background: $brand-primary;
+	&.star-light {
+		&::after {
+			background-color: $brand-primary;
+		}
+	}
 }
 #free-lunch {
 	background: $brand-secondary;
+	&.star-light {
+		&::after {
+			background-color: $brand-secondary;
+		}
+	}
 }
-
 
 #contact {
 	background: $brand-tertiary;
-}
-
-.star-light {
-	&::after {
-		background-color: inherit;
+	&.star-light {
+		&::after {
+			background-color: $brand-tertiary;
+		}
 	}
 }
-.footer-above {
-	background-color: $brand-primary;
-}
-.footer-below {
-	background-color: darken($brand-primary, 20%);
+
+footer{
+	.footer{
+		&-above {
+			background-color: $brand-primary;
+		}
+		&-below {
+			background-color: darken($brand-primary, 20%);
+		}	
+	}
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
@@ -47,5 +70,5 @@ header {
 }
 
 a, a.active, a:active, a:focus, a:hover {
-	color: $brand-secondary;
+	color: darken($brand-secondary,20%);
 }
