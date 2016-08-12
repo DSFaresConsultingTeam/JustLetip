@@ -2,24 +2,36 @@
   background: #003279;
 }
 #mainNav.navbar-custom .navbar-nav li a:hover {
-  color: #BD1021;
+  color: #bd1021;
 }
 
 header {
-  background: #BD1021;
+  background: white;
+  color: inherit;
+}
+header .star-light {
+  border-color: inherit;
 }
 header .star-light::after {
-  background-color: #BD1021;
+  background-color: white;
+  color: inherit;
+}
+
+#the-game {
+  background: #bd1021;
+}
+#the-game .star-light::after {
+  background-color: #bd1021;
 }
 
 #portfolio {
-  background: #FFFFFF;
+  background: white;
 }
 #portfolio h3 {
   text-align: center;
 }
 #portfolio .star-light::after {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 #portfolio .portfolio-item img {
   width: 100%;
@@ -37,38 +49,72 @@ header .star-light::after {
 }
 
 #free-lunch {
-  background: #BD1021;
+  background: white;
+  color: inherit;
+}
+#free-lunch .star-light {
+  border-color: inherit;
 }
 #free-lunch .star-light::after {
-  background-color: #BD1021;
+  background-color: white;
+  color: inherit;
 }
 
 #contact {
-  background: #FFFFFF;
+  background: #bd1021;
+  color: white;
 }
-#contact .star-light::after {
-  background-color: #FFFFFF;
+#contact .star-primary {
+  border-color: white;
+}
+#contact .star-primary::after {
+  background-color: #bd1021;
+  color: white;
+}
+#contact #contactForm .form-control {
+  color: white;
+}
+#contact #contactForm .form-group col-xs-12 floating-label-form-group controls label {
+  color: white;
+}
+#contact #contactForm .help-block {
+  color: white;
 }
 #contact form label {
-  color: #BD1021;
+  color: white;
+}
+#contact .btn-success {
+  background: white;
+  border-color: white;
+  color: #003279;
 }
 #contact.btn-success.active, #contact .btn-success:active, #contact .btn-success:focus, #contact .btn-success:hover, #contact .open .dropdown-toggle.btn-success {
-  background-color: #BD1021;
-  border-color: #BD1021;
+  background-color: #003279;
+  border-color: #003279;
+  color: white;
 }
 
+footer {
+  color: inherit;
+}
 footer .footer-above {
-  background-color: #003279;
+  background-color: white;
+}
+footer .footer-above .btn-social {
+  border-color: inherit;
+}
+footer .footer-above .btn-outline {
+  color: inherit;
 }
 footer .footer-above .btn-outline.active, footer .footer-above .btn-outline:active, footer .footer-above .btn-outline:focus, footer .footer-above .btn-outline:hover {
-  color: #BD1021;
+  color: #bd1021;
 }
 footer .footer-below {
-  background-color: #002760;
+  background-color: #f2f2f2;
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-  background: #BD1021;
+  background: #bd1021;
 }
 
 .btn-success {
@@ -77,5 +123,5 @@ footer .footer-below {
 }
 
 a, a.active, a:active, a:focus, a:hover {
-  color: #BD1021;
+  color: inherit;
 }
