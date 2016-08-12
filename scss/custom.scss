@@ -89,11 +89,19 @@ header {
 	//#contactForm > div:nth-child(1) > div > label//
 
 	#contactForm {
+		.row control-group {
+			&::before {
+				color:$brand-tertiary;
+			}
+			&::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &:-moz-placeholder {
+				color:$brand-tertiary;
+			}
+		}
 		.form-control {
 			color:$brand-tertiary;
 		}
 		.form-group col-xs-12 floating-label-form-group controls {
-			label {
+			&::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &:-moz-placeholder {
 				color:$brand-tertiary;
 			}
 		}

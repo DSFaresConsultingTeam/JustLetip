@@ -71,10 +71,16 @@ header .star-light::after {
   background-color: #bd1021;
   color: white;
 }
+#contact #contactForm .row control-group::before {
+  color: white;
+}
+#contact #contactForm .row control-group::-webkit-input-placeholder, #contact #contactForm .row control-group::-moz-placeholder, #contact #contactForm .row control-group:-ms-input-placeholder, #contact #contactForm .row control-group:-moz-placeholder {
+  color: white;
+}
 #contact #contactForm .form-control {
   color: white;
 }
-#contact #contactForm .form-group col-xs-12 floating-label-form-group controls label {
+#contact #contactForm .form-group col-xs-12 floating-label-form-group controls::-webkit-input-placeholder, #contact #contactForm .form-group col-xs-12 floating-label-form-group controls::-moz-placeholder, #contact #contactForm .form-group col-xs-12 floating-label-form-group controls:-ms-input-placeholder, #contact #contactForm .form-group col-xs-12 floating-label-form-group controls:-moz-placeholder {
   color: white;
 }
 #contact #contactForm .help-block {
