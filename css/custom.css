@@ -2,36 +2,36 @@
   background: #003279;
 }
 #mainNav.navbar-custom .navbar-nav li a:hover {
-  color: #bd1021;
+  color: #BD1021;
 }
 
 header {
-  background: white;
+  background: #FFFFFF;
   color: inherit;
 }
 header .star-light {
   border-color: inherit;
 }
 header .star-light::after {
-  background-color: white;
+  background-color: #FFFFFF;
   color: inherit;
 }
 
 #the-game {
-  background: #bd1021;
+  background: #BD1021;
 }
 #the-game .star-light::after {
-  background-color: #bd1021;
+  background-color: #BD1021;
 }
 
 #portfolio {
-  background: white;
+  background: #FFFFFF;
 }
 #portfolio h3 {
   text-align: center;
 }
 #portfolio .star-light::after {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 #portfolio .portfolio-item img {
   width: 100%;
@@ -49,62 +49,80 @@ header .star-light::after {
 }
 
 #free-lunch {
-  background: white;
+  background: #FFFFFF;
   color: inherit;
 }
 #free-lunch .star-light {
   border-color: inherit;
 }
 #free-lunch .star-light::after {
-  background-color: white;
+  background-color: #FFFFFF;
   color: inherit;
 }
 
 #contact {
-  background: #bd1021;
-  color: white;
+  background: #BD1021;
+  color: #FFFFFF;
 }
 #contact .star-primary {
-  border-color: white;
+  border-color: #FFFFFF;
 }
 #contact .star-primary::after {
-  background-color: #bd1021;
-  color: white;
+  background-color: #BD1021;
+  color: #FFFFFF;
 }
 #contact #contactForm .row control-group::before {
-  color: white;
-}
-#contact #contactForm .row control-group::-webkit-input-placeholder, #contact #contactForm .row control-group::-moz-placeholder, #contact #contactForm .row control-group:-ms-input-placeholder, #contact #contactForm .row control-group:-moz-placeholder {
-  color: white;
+  color: #FFFFFF;
 }
 #contact #contactForm .form-control {
-  color: white;
+  color: #FFFFFF;
 }
-#contact #contactForm .form-group col-xs-12 floating-label-form-group controls::-webkit-input-placeholder, #contact #contactForm .form-group col-xs-12 floating-label-form-group controls::-moz-placeholder, #contact #contactForm .form-group col-xs-12 floating-label-form-group controls:-ms-input-placeholder, #contact #contactForm .form-group col-xs-12 floating-label-form-group controls:-moz-placeholder {
-  color: white;
+#contact #contactForm .form-control::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+#contact #contactForm .form-control::-moz-placeholder {
+  color: #FFFFFF;
+}
+#contact #contactForm .form-control:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+#contact #contactForm .form-control:-moz-placeholder {
+  color: #FFFFFF;
+}
+#contact #contactForm .form-group col-xs-12 floating-label-form-group controls::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+#contact #contactForm .form-group col-xs-12 floating-label-form-group controls::-moz-placeholder {
+  color: #FFFFFF;
+}
+#contact #contactForm .form-group col-xs-12 floating-label-form-group controls:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+#contact #contactForm .form-group col-xs-12 floating-label-form-group controls:-moz-placeholder {
+  color: #FFFFFF;
 }
 #contact #contactForm .help-block {
-  color: white;
+  color: #FFFFFF;
 }
 #contact form label {
-  color: white;
+  color: #FFFFFF;
 }
 #contact .btn-success {
-  background: white;
-  border-color: white;
+  background: #FFFFFF;
+  border-color: #FFFFFF;
   color: #003279;
 }
 #contact.btn-success.active, #contact .btn-success:active, #contact .btn-success:focus, #contact .btn-success:hover, #contact .open .dropdown-toggle.btn-success {
   background-color: #003279;
   border-color: #003279;
-  color: white;
+  color: #FFFFFF;
 }
 
 footer {
   color: inherit;
 }
 footer .footer-above {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 footer .footer-above .btn-social {
   border-color: inherit;
@@ -113,14 +131,14 @@ footer .footer-above .btn-outline {
   color: inherit;
 }
 footer .footer-above .btn-outline.active, footer .footer-above .btn-outline:active, footer .footer-above .btn-outline:focus, footer .footer-above .btn-outline:hover {
-  color: #bd1021;
+  color: #BD1021;
 }
 footer .footer-below {
   background-color: #f2f2f2;
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-  background: #bd1021;
+  background: #BD1021;
 }
 
 .btn-success {
