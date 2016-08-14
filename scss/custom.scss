@@ -93,7 +93,16 @@ header {
 			&::before {
 				color:$brand-tertiary;
 			}
-			&::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &:-moz-placeholder {
+			&::-webkit-input-placeholder {
+				color:$brand-tertiary;
+			}
+			&::-moz-placeholder {
+				color: $brand-tertiary;
+			}
+			&:-ms-input-placeholder {
+				color:$brand-tertiary;
+			}
+			&:-moz-placeholder {
 				color:$brand-tertiary;
 			}
 		}
@@ -101,7 +110,16 @@ header {
 			color:$brand-tertiary;
 		}
 		.form-group col-xs-12 floating-label-form-group controls {
-			&::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &:-moz-placeholder {
+			&::-webkit-input-placeholder {
+				color:$brand-tertiary;
+			}
+			&::-moz-placeholder {
+				color: $brand-tertiary;
+			}
+			&:-ms-input-placeholder {
+				color:$brand-tertiary;
+			}
+			&:-moz-placeholder {
 				color:$brand-tertiary;
 			}
 		}
