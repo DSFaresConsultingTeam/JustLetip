@@ -16,8 +16,9 @@ $bottom-footer: #750A15;
 header {
   	background-image: url("http://randomwallpapers.net/baseball-stitching-white-2560x1440-wallpaper173427.jpg");
   	background-position: center center;
-  	background-size: contain;
+  	background-size: cover;
   	background-repeat: no-repeat;
+  	background-color: $brand-tertiary;
 	color: inherit;
 	.star-light {
 		border-color:inherit;
@@ -26,10 +27,6 @@ header {
 			color:inherit;
 		}
 	}
-}
-#baseball-bg {
-	background-image: url('C:/Users/Shane/Documents/GitHub/JustLetip/img/baseball-pic.jpg');
-	background-size: 100% 100%;
 }
 
 #the-game {
