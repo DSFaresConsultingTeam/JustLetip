@@ -2,36 +2,43 @@
   background: #003279;
 }
 #mainNav.navbar-custom .navbar-nav li a:hover {
-  color: #BD1021;
+  color: #bd1021;
 }
 
 header {
-  background: #FFFFFF;
+  background-image: url("C:/Users/Shane/Documents/GitHub/JustLetip/img/baseball-pic.jpg");
+  background-size: 100% auto;
+  /*background: white;*/
   color: inherit;
 }
 header .star-light {
   border-color: inherit;
 }
 header .star-light::after {
-  background-color: #FFFFFF;
+  background-color: white;
   color: inherit;
 }
 
+/*#baseball-bg {
+  background-image: url("C:/Users/Shane/Documents/GitHub/JustLetip/img/baseball-pic.jpg");
+  background-size: 100% 100%;
+}*/
+
 #the-game {
-  background: #BD1021;
+  background: #bd1021;
 }
 #the-game .star-light::after {
-  background-color: #BD1021;
+  background-color: #bd1021;
 }
 
 #portfolio {
-  background: #FFFFFF;
+  background: white;
 }
 #portfolio h3 {
   text-align: center;
 }
 #portfolio .star-light::after {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 #portfolio .portfolio-item img {
   width: 100%;
@@ -49,80 +56,68 @@ header .star-light::after {
 }
 
 #free-lunch {
-  background: #FFFFFF;
+  background: white;
   color: inherit;
 }
 #free-lunch .star-light {
   border-color: inherit;
 }
 #free-lunch .star-light::after {
-  background-color: #FFFFFF;
+  background-color: white;
   color: inherit;
 }
 
 #contact {
-  background: #BD1021;
-  color: #FFFFFF;
+  background: #bd1021;
+  color: white;
 }
 #contact .star-primary {
-  border-color: #FFFFFF;
+  border-color: white;
 }
 #contact .star-primary::after {
-  background-color: #BD1021;
-  color: #FFFFFF;
+  background-color: #bd1021;
+  color: white;
 }
 #contact #contactForm .row control-group::before {
-  color: #FFFFFF;
+  color: white;
 }
 #contact #contactForm .form-control {
-  color: #FFFFFF;
+  color: white;
 }
 #contact #contactForm .form-control::-webkit-input-placeholder {
-  color: #FFFFFF;
+  color: white;
 }
 #contact #contactForm .form-control::-moz-placeholder {
-  color: #FFFFFF;
+  color: white;
 }
 #contact #contactForm .form-control:-ms-input-placeholder {
-  color: #FFFFFF;
+  color: white;
 }
 #contact #contactForm .form-control:-moz-placeholder {
-  color: #FFFFFF;
-}
-#contact #contactForm .form-group col-xs-12 floating-label-form-group controls::-webkit-input-placeholder {
-  color: #FFFFFF;
-}
-#contact #contactForm .form-group col-xs-12 floating-label-form-group controls::-moz-placeholder {
-  color: #FFFFFF;
-}
-#contact #contactForm .form-group col-xs-12 floating-label-form-group controls:-ms-input-placeholder {
-  color: #FFFFFF;
-}
-#contact #contactForm .form-group col-xs-12 floating-label-form-group controls:-moz-placeholder {
-  color: #FFFFFF;
+  color: white;
 }
 #contact #contactForm .help-block {
-  color: #FFFFFF;
+  color: white;
 }
 #contact form label {
-  color: #FFFFFF;
+  color: white;
 }
 #contact .btn-success {
-  background: #FFFFFF;
-  border-color: #FFFFFF;
+  background: white;
+  border-color: white;
   color: #003279;
 }
 #contact.btn-success.active, #contact .btn-success:active, #contact .btn-success:focus, #contact .btn-success:hover, #contact .open .dropdown-toggle.btn-success {
   background-color: #003279;
   border-color: #003279;
-  color: #FFFFFF;
+  color: white;
 }
 
 footer {
   color: inherit;
 }
 footer .footer-above {
-  background-color: #FFFFFF;
+  background-color: white;
 }
 footer .footer-above .btn-social {
   border-color: inherit;
@@ -131,14 +126,14 @@ footer .footer-above .btn-outline {
   color: inherit;
 }
 footer .footer-above .btn-outline.active, footer .footer-above .btn-outline:active, footer .footer-above .btn-outline:focus, footer .footer-above .btn-outline:hover {
-  color: #BD1021;
+  color: #bd1021;
 }
 footer .footer-below {
   background-color: #f2f2f2;
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
-  background: #BD1021;
+  background: #bd1021;
 }
 
 .btn-success {
