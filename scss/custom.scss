@@ -14,7 +14,10 @@ $bottom-footer: #750A15;
 }
 // Trying out different color for text //
 header {
-	background: $brand-tertiary;
+  	background-image: url("http://randomwallpapers.net/baseball-stitching-white-2560x1440-wallpaper173427.jpg");
+  	background-position: center center;
+  	background-size: contain;
+  	background-repeat: no-repeat;
 	color: inherit;
 	.star-light {
 		border-color:inherit;
